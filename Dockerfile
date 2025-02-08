@@ -44,7 +44,7 @@ RUN set -ex; \
   ;
 
 # Expose 80 Port need set individual IP to container,34400 port is default
-EXPOSE 80 34400
+EXPOSE 34400
 
 # entrypoint /init set in clion007/alpine base image
     
